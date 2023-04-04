@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>groupSelectors attributeSelector pseudoSelector</title>
+
+<style>
+    /*
+    p,h5{
+    border:1px solid green;
+}
+div p{
+    border:1px solid green;
+}div.deneme{
+    border:1px solid blueviolet;
+}h3~p{
+    border:1px solid green;
+}h5+p{
+    border:1px solid green;
+}
+*/
+div >p{
+    border:1px solid green;
+}
+
+
+</style>
+
+
+
+
+</head>
+<body>
+    <!--  
+    <h1>groupSelectors ==> * + ~ ></h1>
+    <h1>attributeSelector ==> input[type="text"] </h1>
+    <h1>pseudoSelector ==> PseudoElement (::)  PSeudoClass (:)</h1>
+-->
+<div>
+    <p>lorem10</p>
+    <p>lorem10</p>
+</div>
+
+<div class="deneme">
+    <p>lorem5</p>
+</div>
+
+<div>
+    <h5>Merhabalar H5</h5>
+</div>
+<p>1.p</p>
+<p>2.p</p>
+
+<h3>1.başlık</h3>
+<h3>2.başlık</h3>
+<p>h3 ile p arasında</p>
+<p>h3 ile 2.p arasında</p>
+<h5>2. H5</h5>
+<p>h3 ile 2.p external</p>
+
+</body>
+</html>

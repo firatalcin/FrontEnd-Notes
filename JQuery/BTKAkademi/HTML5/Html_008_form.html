@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="index.html">
+        <label>Adı: </label>
+        <input type="text" name="name" id="adi" required placeholder="Adınızı giriniz.."/>
+        <br/>
+        <label>Şifre: </label>
+        <input type="text" name="password" id="sifre" required placeholder="Şifrenizi giriniz.."/>
+        <br/>
+        <label>Şifre: </label>
+        <input type="email" name="email" id="email" required placeholder="Email giriniz.."/>
+        <br/>
+
+        <select name="" id="">
+            <option value="1">Frontend</option>
+            <option value="2">Backend</option>
+            <option value="3">Sql</option>
+        </select>
+        <br/>
+
+        <label for="number">Sayı: </label>
+        <br>
+        <input type="number" id="number" name="sayi" min="10" max="100" step="5" value="25" />
+        <br><br>
+
+        <label>Cinsiyet: </label>
+        <br>
+        Kadın:<input type="radio" name="cinsiyet" id="cns1">
+        Erkek:<input type="radio" name="cinsiyet" id="cns2">
+        <br>
+
+        <label>Kitaplar: </label>
+        <br>
+        Java:<input type="checkbox" name="check1" id="kitap">
+        DotNet:<input type="checkbox" name="check2" id="kitap1">
+        <br>
+
+        <br>
+        <input type="reset" value="Temizle"/>
+        <input type="submit" value="Giriş"/>
+    </form>
+</body>
+</html>

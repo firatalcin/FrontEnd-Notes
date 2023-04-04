@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>groupSelectors attributeSelector pseudoSelector</title>
+
+<style>
+
+    /* 
+    attributes selector
+ input[type="text"]{
+     background:red;
+ }
+
+ input[type="button"]{
+     background: yellow;
+ }
+
+ a[target="_blank"]{
+     font-size: 25px;
+ }
+*/
+a{
+    border:1px solid red;
+    text-decoration: none;
+    padding:8px 9px;
+    width: 16px;
+    margin:12px;
+}
+
+a:link{
+    color:red;
+    
+}
+
+a:hover{
+    color:yellow;
+    background: orange;
+    
+}
+
+a:visited{
+    color:green;
+  
+}
+
+a:active{
+    color:blue;
+    
+}
+
+p:before{
+    content: " -BTK Akademi";
+}
+</style>
+</head>
+<body>
+  <form>
+<!--
+  <input type="text"><br>
+    <input type="text"><br>
+    <input type="button" value="Button"><br>
+    <input type="password"><br>
+
+-->
+  
+<br>
+<br>
+<br>
+<br>
+<br>
+    <a href="" >Link</a>
+    <a href="">Visited</a>
+    <a href="">Hover</a>
+    <a href="" >Active</a>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>2Lorem ipsum dolor sit amet.</p>
+    <p>3Lorem ipsum dolor sit amet.</p>
+  </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id ve Class</title>
+    <style>
+        #f10{
+            font-size: 10px;
+        }
+
+        #f20{
+            font-size: 20px;
+        }
+
+        .global{
+            color: blue !important;
+            border: 2px dotted red;
+        }
+
+        .global2{
+            font-size: 25px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Class ve Id important</h1>
+
+    <p id="f10">Lorem ipsum dolor sit amet.</p>
+    <p id="f20">Lorem ipsum dolor sit amet.</p>
+    <p class="global">Lorem ipsum dolor sit amet.</p>
+    <p class="global2">Lorem ipsum dolor sit amet.</p>
+    <p class="global global2">Lorem ipsum dolor sit amet.</p>
+    <p id="f20" class="global global2">Lorem ipsum dolor sit amet.</p>
+</body>
+</html>

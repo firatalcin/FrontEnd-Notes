@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>font_awesome google-font opacity box-sizing link</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+   <style>
+i{
+    font-size: 100px;
+    color:red;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    opacity: 1;
+}
+
+div>a{
+    border:1px solid red;
+    text-decoration: none;
+    font-size: 350%;
+border-radius: 5%;
+text-transform: lowercase;
+}
+
+#firstAnchor{
+color:whitesmoke;
+background-color: #0069D9;
+}
+
+#secondAnchor{
+   color:whitesmoke;
+   background-color: #5A6268; 
+}
+
+#thirdAnchor{
+    color:white;
+    background-color: tomato;
+}
+/*Pseudo Class */
+a:hover{
+    color:white!important;
+    background-color: black!important;
+    font-size:300%;
+}
+
+#kutu1{
+/* 
+  box-sizing:content-box;
+  width:200+10*2+20*2+2*2=264px
+*/
+  background-color:red;
+  color:white;
+  text-align:center;
+  text-transform: lowercase;
+
+box-sizing: content-box;
+
+  width:200px;
+  height:200px;
+
+  padding:10px;
+  margin:20px;
+  border:2px solid yellow;  
+ /* 
+  border-right:2px;
+  border-left:2px;
+  */
+ 
+}
+
+#kutu2{
+/* 
+  box-sizing:border-box;
+  width:200+20*2 (width+margin)=240px
+  200=width+padding(10*2)+border(2*2) =200-24=176 width
+*/
+  background-color:blue;
+  color:white;
+  text-align:center;
+  text-transform: lowercase;
+
+  box-sizing: border-box;
+
+  width:200px;
+  height:200px;
+  padding:10px;
+  margin:20px;
+  border:2px solid yellow;  
+  
+ 
+}
+   </style>
+
+
+</head>
+<body>
+    <!-- font-family: 'Open Sans', sans-serif; -->
+    <i class="fab fa-500px"></i>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sint numquam ipsam odit dolore. Ratione?</p>
+<img src="../Html5/image/logo.png" alt="resiom yok">
+
+<div>
+<a id="firstAnchor" href="">Link-1</a>
+<a id="secondAnchor" href="">Link-2</a>
+<a id="thirdAnchor" href="">Link-3</a></div>
+<br><br> <hr>
+
+
+<div id="kutu1">1.kutu</div>
+<div id="kutu2">2.kutu</div>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nav (Menü)</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <style>
+  body{
+    box-sizing: border-box;
+    margin:10px;
+    padding:0;
+  }
+
+  ul{
+    margin:0;
+    padding:0;
+  }
+
+  li{
+    display: inline-block;
+    background-color: black;
+    transition: background 1s;
+    box-shadow:2px -3px 9px 1px black;
+    padding:12px;
+    min-width: 122px;
+  }
+li:hover{
+  background-color: blue;
+  opacity: 0.8;
+}
+
+
+@media screen and (max-width:650px){
+/* css*/
+li{
+  background-color: darkblue;
+  display:none;
+}
+
+}
+  a{
+    text-decoration: none;
+    color:white;
+    cursor:pointer;
+    text-transform: capitalize;
+  }
+
+  i{
+    color:#FFD43B;
+  }
+
+i:hover{
+  color:white;
+}
+  </style>
+
+
+</head>
+<body>
+
+  <h2>Boostrap nav</h2>
+
+  <nav>
+    <ul>
+      <li><i class="fas fa-home"></i> <a href="#">home</a> </li>
+      <li><i class="fab fa-phoenix-squadron"></i><a href="#">contact</a></li>
+      <li><i class="fas fa-igloo"></i><a href="#">about</a></li>
+      <li><i class="fab fa-audible"></i><a href="#">New</a></li>
+    </ul>
+  </nav>
+  
+</body>
+</html>

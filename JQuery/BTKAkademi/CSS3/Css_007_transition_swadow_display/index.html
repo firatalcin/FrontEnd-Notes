@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>transition,box-shadow,display</title>
+  <style>
+    .ornek{
+      box-sizing: border-box;
+      width: 150px;
+      height:150px;
+      background:red;
+     display: inline-block!important;
+     box-shadow: 12px -8px 30px 4px #001;
+     margin-left:-12px;
+     /*
+      margin-left:12.5%;
+     margin-top:15%;
+     */
+    
+     color:white;
+     text-align: center;
+     transition: width 3s, height 3s, background 3s ,transform 3s;
+     transition-delay:2s;
+     
+    }
+
+.ornek:hover{
+  width: 300px;
+  height: 300px;
+  /*transform: rotate(90deg);*/
+  background-color: royalblue;
+
+}
+   div.ornek > p{
+      font-size: 50px;
+      text-shadow: 1px 2px 3px black;
+    }
+  </style>
+</head>
+<body>
+  
+<div>
+  <div class="ornek"><p>text</p>  </div>
+  <div class="ornek"><p>text</p>  </div>
+  <div class="ornek"><p>text</p>  </div>
+  <div class="ornek"><p>text</p>  </div>
+</div>
+
+
+
+
+</body>
+</html>

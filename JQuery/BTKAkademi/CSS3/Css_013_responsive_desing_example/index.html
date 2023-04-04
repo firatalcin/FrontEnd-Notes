@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@media query tutorials</title>
+
+  <style>
+div{
+  box-sizing: border-box;
+  background-color: red;
+  float:left;
+  border:1px solid white;
+  width: 20%;
+  height: 300px;
+}
+
+@media screen and (max-width:800px){
+  .media{
+    width: 25%;
+    background-color: chocolate;
+  }
+  img{
+    opacity: 0.8;
+  }
+}
+
+@media screen and (max-width:750px){
+  .media{
+    width: 50%;
+    background-color: darkred;
+  }
+  img{
+    opacity: 0.6;
+  }
+}
+
+@media screen and (max-width:500px){
+  .media{
+    width: 100%;
+    background-color: darkblue;
+  }
+
+  img{
+    opacity: 0.4;
+  }
+}
+
+img{
+  width: 100%;
+  height: auto;
+  object-fit:cover;
+  object-position: 50% 50%;
+}
+
+  </style>
+
+
+
+</head>
+<body>
+
+
+  <div class="media"><img src="../Html5/image/header.png" alt=""></div>
+  <div class="media"><img src="../Html5/image/header.png" alt=""></div>
+  <div class="media"><img src="../Html5/image/header.png" alt=""></div>
+  <div class="media"><img src="../Html5/image/header.png" alt=""></div>
+  <div class="media"><img src="../Html5/image/header.png" alt=""></div>
+  
+</body>
+</html>
