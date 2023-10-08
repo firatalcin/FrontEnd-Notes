@@ -1,2 +1,2 @@
 # FrontEnd.Works
-Aldığım Eğitimler ve Çalışmalar
+Front-End teknolojileri ile ilgili aldığım notlar
