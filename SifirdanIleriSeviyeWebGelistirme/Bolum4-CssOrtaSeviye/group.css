@@ -1,0 +1,19 @@
+/* p{
+    color: red;
+} */
+
+/* div p{
+    color: red;
+} */
+
+/* .container{
+    color: royalblue;
+} */
+
+div,p{
+    color: brown;
+}
+
+p + div{
+    color: red;
+}

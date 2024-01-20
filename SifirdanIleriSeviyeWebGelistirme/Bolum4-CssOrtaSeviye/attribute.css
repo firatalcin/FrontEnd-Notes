@@ -1,0 +1,12 @@
+h2[title="baslik1"]{
+    color: red;
+}
+
+p[title="paragraf1"]{
+    color: lightblue;
+    text-align: justify;
+}
+
+a[target="_blank"]{
+    color: lightgreen;
+}
