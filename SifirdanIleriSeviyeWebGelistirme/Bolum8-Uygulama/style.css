@@ -111,3 +111,31 @@ header h1{
     color: #fff;
     font-size: 6rem;
 }
+
+header h2{
+    color: #fff;
+    font-size: 2.4rem;
+    font-family: "Lato";
+    font-weight: 300;
+}
+
+.star-light{
+    border: none;
+    border-top: 0.4rem solid #fff;
+    max-width: 25rem;
+    border-radius: 10px;
+    margin: 2.5rem auto;
+    overflow: visible;
+    height: 0;
+}
+
+.star-light::after{
+    content: "\2605";
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.2rem;
+    position: relative;
+    top: -28px;
+    padding: 0 8px;
+    background-color: #1ABC9B;
+}
