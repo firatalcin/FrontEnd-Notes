@@ -171,3 +171,17 @@ hr.star-dark{
     color: #2d2d4f;
 }
 
+.img-fluid-p{
+    max-width: 100%;
+    height: auto;
+}
+
+.col{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.portfolio-item{
+    
+}
