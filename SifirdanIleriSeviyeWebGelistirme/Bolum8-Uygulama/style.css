@@ -35,6 +35,41 @@ section{
     text-align: center;
 }
 
+.btn{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.btn-outline{
+    color: white;
+    border-color: #fff;
+    background-color: transparent;
+    padding: 2.2rem 1.6rem;
+}
+
+.btn-outline:hover{
+    color: #212529;
+    background-color: #fff;
+}
+
+.btn-primary{
+    background-color: #1ABC9B;
+    border: #1ABC9B;
+    padding: 1.2rem 1rem;
+    color: #fff;
+}
+
+.btn-primary:hover{
+    background-color: #128f76;
+    border-color: #128f76;
+}
+
 .img-fluid{
     max-width: 256px;
     height: auto;
