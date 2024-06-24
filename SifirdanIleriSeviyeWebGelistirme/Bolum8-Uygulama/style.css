@@ -35,9 +35,14 @@ section{
     text-align: center;
 }
 
+.btn-large{
+    font-size: 2rem;
+    padding: 2.2rem 1.6rem;
+}
+
 .btn{
     margin-top: 2rem;
-    font-size: 2rem;
+   
     font-weight: 400;
     display: inline-block;
     border: 2px solid white;
@@ -46,11 +51,19 @@ section{
     transition: all .5s;
 }
 
+.btn-social{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
 .btn-outline{
     color: white;
     border-color: #fff;
     background-color: transparent;
-    padding: 2.2rem 1.6rem;
+    
 }
 
 .btn-outline:hover{
@@ -313,4 +326,36 @@ hr.star-dark{
 
 .form-group textarea:focus{
     outline: 0;
+}
+
+/* Footer */
+
+footer{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #2c3e4f;
+    color: white;
+    text-align: center;
+}
+
+footer h4{
+    font-size: 2.4rem;
+}
+
+footer p{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+footer li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.copyright{
+    background-color: #19262f;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    color: #fff;
+    text-align: center;
 }
