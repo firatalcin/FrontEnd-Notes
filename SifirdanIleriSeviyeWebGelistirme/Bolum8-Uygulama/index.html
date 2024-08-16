@@ -30,7 +30,7 @@
           <a href="/" class="logo text-uppercase"> Start Bootsrap </a>
         </div>
 
-        <div id="nav-links">
+        <div id="nav-links" class="responsive">
           <ul>
             <li class="nav-item">
               <a href="#" class="nav-link text-uppercase nav-icon"> <i class="fas fa-bars"></i> </a>
@@ -245,3 +245,12 @@
     </div>
   </body>
 </html>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="></script>
+
+<script>
+  $(".nav-icon").click(function(){
+    $("#nav-links").toggleClass("responsive");
+    return false;
+  });
+</script>
